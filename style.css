@@ -1,0 +1,84 @@
+*{
+    text-decoration: none;
+    padding: 0px;
+    margin: 0;
+}
+body{
+    background-color: #f5deb3;
+}
+nav{
+    display:flex;
+    position: fixed;
+    top:0%;
+    align-items: center;
+    height:150px;
+    width:100vw;
+    background-color: rgba(0, 0, 0, 0.333);
+    
+}
+a{
+    margin:40px;
+    color: white;
+}
+.container1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 140vh;
+    background: url("dinner time.jpg");
+    background-size: cover;
+}
+#logo{
+    border:5px solid white;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 150px;
+}
+h1{
+    margin-bottom: 40px;
+    color:white;
+    font-size: 3em;
+}
+h3,p{
+    color: white;
+    
+}
+p{
+    font-size: 2rem;
+    margin-top: 20px;
+}
+.cardcontainer{
+    display: flex;
+    justify-content: space-around;
+    margin:20px 70px;
+    padding: 20px;
+    background-color: rgb(208,190,158);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+   
+
+}
+.imgcards{
+    display: flex;
+    flex-direction: column;
+}
+.img1{
+    height: 290px;
+    width:300px;
+    border-radius: 10%;
+    margin: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.img2{
+    height: 190px;
+    width:300px;
+    border-radius: 10%;
+    margin: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.menucard{
+    text-align: center;
+}
+.comp{
+    background-color: white;
+}
